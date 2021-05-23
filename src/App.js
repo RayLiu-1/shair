@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
@@ -112,9 +112,6 @@ function App() {
   }
 
   const handleSearchClick = () => {
-    console.dir(modelyear)
-    console.log(make)
-    console.log(vehicletype)
     submitSearch()
   }
 
